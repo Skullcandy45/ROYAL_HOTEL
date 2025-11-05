@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | RoyalStay Hotel</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body class="font-sans bg-gray-50">
+    <nav
+      class="fixed top-0 left-0 w-full bg-gradient-to-r from-amber-500 via-orange-500 to-yellow-400 shadow-md z-50"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="text-white text-2xl font-bold tracking-wide">
+            RoyalStay
+          </div>
+          <div class="space-x-8 text-lg text-white font-medium hidden md:flex">
+            <a href="./index.html" class="hover:text-yellow-100 transition"
+              >Home</a
+            >
+            <a href="./room.html" class="hover:text-yellow-100 transition"
+              >Rooms</a
+            >
+            <a href="./dining.html" class="hover:text-yellow-100 transition"
+              >Dining</a
+            >
+            <a href="./offers.html" class="hover:text-yellow-100 transition"
+              >Offers</a
+            >
+            <a href="./contact.html" class="hover:text-yellow-100 transition"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header
+      class="pt-24 h-[60vh] bg-[url('https://images.unsplash.com/photo-1551776235-dde6d4829808?auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center flex items-center justify-center text-white"
+    >
+      <div class="bg-black bg-opacity-50 p-10 rounded-xl text-center">
+        <h1 class="text-5xl font-bold mb-4">Contact Us</h1>
+        <p class="text-lg">
+          We’d love to hear from you. Let’s make your stay special.
+        </p>
+      </div>
+    </header>
+
+    <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-amber-600 mb-10">Get in Touch</h2>
+      <form class="bg-white shadow-lg rounded-2xl p-8 text-left space-y-6">
+        <div>
+          <label class="block text-gray-700 mb-2 text-lg">Full Name</label>
+          <input
+            type="text"
+            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-500"
+          />
+        </div>
+        <div>
+          <label class="block text-gray-700 mb-2 text-lg">Email</label>
+          <input
+            type="email"
+            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-500"
+          />
+        </div>
+        <div>
+          <label class="block text-gray-700 mb-2 text-lg">Message</label>
+          <textarea
+            rows="4"
+            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-500"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="bg-amber-500 text-white px-6 py-3 rounded-full font-medium hover:bg-amber-600 transition"
+        >
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <footer class="bg-amber-600 text-white py-8 text-center">
+      <p class="text-lg">&copy; 2025 RoyalStay Hotel. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
